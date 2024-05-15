@@ -1,0 +1,73 @@
+/*css for sushi*/ 
+body {
+    width: 100%;
+    padding-right: 0%;
+}
+
+.navbar {
+   width: 100%;
+    background-color: #981B00;
+    text-decoration-color: #fff;
+    
+}
+.nav-item {
+ Margin-right: 30px;
+}
+
+.navbar-brand {
+    margin-left: 30px;
+}
+
+
+.container-fluid {
+    padding-right: 0px;
+padding-left: 0px;
+}
+
+.welk {
+    background-color: #343333;
+    color: #fff;
+
+}
+
+.pager {
+    width: 100%;
+    
+}
+#page {
+    width: 60%;
+    position: relative;
+    left: 30%;
+}
+
+.txtpic {
+    margin:auto;
+}
+.pic {
+    width: 30%;
+    margin: 0;
+    text-align: center;
+}
+
+#pic1 {
+    width: 80%;
+    position: static;
+    margin-bottom: 10%;
+  
+}
+
+.text {
+    width: 60%;
+    text-align: center;
+    padding: 3% 50;
+
+}
+
+.inf {
+    height: 400px;
+    background-color: #B44F4F   ;
+  text-align: center;
+}
+
+
+
