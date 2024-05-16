@@ -1,27 +1,42 @@
-/*css for sushi*/ 
+/*css for sushi*/
+
+html,
 body {
     width: 100%;
-    padding-right: 0%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 .navbar {
-   width: 100%;
     background-color: #981B00;
     text-decoration-color: #fff;
-    
+
 }
+
 .nav-item {
- Margin-right: 30px;
+    Margin-right: 30px;
+
 }
 
 .navbar-brand {
     margin-left: 30px;
 }
 
+.butn {
+    Margin-right: 30px;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+
 
 .container-fluid {
-    padding-right: 0px;
-padding-left: 0px;
+
+    width: 100%;
 }
 
 .welk {
@@ -32,8 +47,9 @@ padding-left: 0px;
 
 .pager {
     width: 100%;
-    
+
 }
+
 #page {
     width: 60%;
     position: relative;
@@ -41,10 +57,13 @@ padding-left: 0px;
 }
 
 .txtpic {
-    margin:auto;
+    margin: auto;
+}
+
+.t1 {
+    margin: 0 10;
 }
 .pic {
-    width: 30%;
     margin: 0;
     text-align: center;
 }
@@ -52,8 +71,8 @@ padding-left: 0px;
 #pic1 {
     width: 80%;
     position: static;
-    margin-bottom: 10%;
-  
+   padding: 60px 0 30px 0;
+
 }
 
 .text {
@@ -64,10 +83,7 @@ padding-left: 0px;
 }
 
 .inf {
-    height: 400px;
-    background-color: #B44F4F   ;
-  text-align: center;
+    background-color: #B44F4F;
+    text-align: center;
+    padding: 5% 0%;
 }
-
-
-
