@@ -9,6 +9,12 @@ body {
     overflow-x: hidden;
 }
 
+p, h1, h2 {
+ font-family: Lora;
+ color: #fff;
+}
+
+
 .navbar {
     background-color: #981B00;
     text-decoration-color: #fff;
@@ -34,7 +40,7 @@ body {
 
 
 
-.container-fluid {
+.container-fluid,.pager  {
 
     width: 100%;
 }
@@ -45,19 +51,23 @@ body {
 
 }
 
-.pager {
-    width: 100%;
-
-}
-
 #page {
     width: 60%;
     position: relative;
     left: 30%;
 }
 
-.txtpic {
+.txtpic .wel-text .welcome  .int-but {
     margin: auto;
+}
+
+.wel-text  {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.int-but {
+    padding-top: 40px;
 }
 
 .t1 {
@@ -86,4 +96,5 @@ body {
     background-color: #B44F4F;
     text-align: center;
     padding: 5% 0%;
+    color: #fff;
 }
