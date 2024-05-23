@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+   
     <script src="https://kit.fontawesome.com/fd17ba8bea.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,6 +47,14 @@
                     <li class="nav-item">
                         <A href="About us.html" class="nav-link link-light">About us</A>
                     </li>
+                    <li>
+                        <div class="d-flex justify-content-end mb-3">
+                            <select id="languageSelect" class="form-select w-auto">
+                                <option value="en">English</option>
+                                <option value="es">Spanish</option>
+                                <option value="fr">French</option>
+                            </select>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -83,13 +89,20 @@
     <div class="inf">
         <div>
             <h2>
-                ..
+                <h1 id="heading">Welcome to our website!</h1>
+        <p id="paragraph">This is a simple example of a language toggle.</p>
             </h2>
             <p>
-                ..
+                .
+             
             </p>
         </div>
     </div>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
