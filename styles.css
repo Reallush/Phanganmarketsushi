@@ -23,7 +23,13 @@ p, h1, h2 {
 
 .nav-item {
     Margin-right: 30px;
+  
 
+}
+
+.trl {
+    margin: auto;
+    padding-right: 5px;
 }
 
 .navbar-brand {
@@ -37,6 +43,8 @@ p, h1, h2 {
 .nav-link {
     text-align: center;
 }
+
+
 
 
 
@@ -57,7 +65,7 @@ p, h1, h2 {
     left: 30%;
 }
 
-.txtpic .wel-text .welcome  .int-but {
+.txtpic .wel-text .welcome  .int-but .mb-3{
     margin: auto;
 }
 
