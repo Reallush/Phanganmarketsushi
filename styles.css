@@ -63,29 +63,30 @@ h2 {
 
 }
 
+.welpic {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
 #page {
     width: 40%;
-    position: relative;
-    left: 12%;
-    padding-top: 5%;
-    display: inline-block;
+  display: inline-block;
+  
+    
 }
 
 #left {
     width: 15%;
-    position: relative;
-    top: 70px;
-    left: 30px;
     display: inline-block;
+    margin-left: 2%;
 
 }
 
 #right {
-    position: relative;
-    width: 15%;
-    display: inline-block;
-    left: 25%;
-    top: 70px;
+  width: 15%;
+  display: inline-block;
+  margin-right: 2%;
 
 }
 
