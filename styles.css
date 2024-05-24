@@ -70,23 +70,29 @@ h2 {
     padding-top: 5%;
 }
 #page {
-    width: 40%;
+    width: 100%;
   display: inline-block;
   
     
 }
-
+.left {
+    text-align: center;
+    margin: auto;
+}
 #left {
-    width: 15%;
+    width: 60%;
     display: inline-block;
-    margin-left: 2%;
+    margin: auto;
 
 }
-
+.right {
+    text-align: center;
+    margin: auto;
+}
 #right {
-  width: 15%;
+  width: 60%;
   display: inline-block;
-  margin-right: 2%;
+  margin: auto;
 
 }
 
