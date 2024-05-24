@@ -18,29 +18,49 @@
 
 <body>
     <!-- Navbar-->
-    <div>
-        <nav class="navbar navbar-expand-lg navcol">
-            <a class="navbar-brand link-light" href="index.html">Phangan Market Sushi</a>
-            <button class="navbar-toggler butn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-lg navcol">
+        <A class="navbar-brand link-light" href="index.html">Phangan Market Sushi</A>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="https://forms.gle/KR5Lo2QxgSmBZfAW9" class="nav-link link-light">Order Form</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link link-light">Locations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="About%20us.html" class="nav-link link-light">About us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a href="Sushi.html" class="nav-link link-light"><button type="button"
+                            class="btn dbtn btn-outline-light btn-sm"><i
+                                class="fa-solid fa-fish"></i> Sushi library</button></a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://forms.gle/KR5Lo2QxgSmBZfAW9" class="nav-link link-light"><button type="button"
+                        class="btn dbtn btn-outline-light btn-sm"><i
+                            class="fa-regular fa-clipboard"></i> Order form</button></a>
+                </li>
+                <li class="nav-item">
+                    <a href="Locations.html" class="nav-link link-light"><button type="button"
+                        class="btn dbtn btn-outline-light btn-sm"><i
+                            class="fa-solid fa-location-dot"></i> Locations</button></a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="About us.html" class="nav-link link-light"><button type="button"
+                        class="btn dbtn btn-outline-light btn-sm"><i
+                            class="fa-regular fa-address-card"></i> About us</button></a>
+                </li>
+                <li class="nav-item trl">
+                    <div class="d-flex justify-content-end mb-3">
+                        <select id="languageSelect" class="form-select w-auto">
+                            <option value="en">Eng</option>
+                            <option value="th">ไทย</option>
+                        </select>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <!-- Welcome LOGO and photo -->
     <div class="welk">
@@ -73,6 +93,7 @@
             </p>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
