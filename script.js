@@ -18,8 +18,8 @@ const translations = {
         ordr: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-regular fa-clipboard"></i> แบบฟอร์มสั่งซื้อ</button>',
         loc: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-solid fa-fish"></i> สถานที่</button>',
         bout: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-regular fa-clipboard"></i> เกี่ยวกับเรา</button>',
-        ordr2: '<button type="button" class="btn dbtn btn-outline-light btn-lg"><i class="fa-regular fa-clipboard"></i> แบบฟอร์มสั่งซื้อ</button>',
-        entr: '<button type="button" class="btn introbtn dbtn btn-secondary btn-lg"><i class="fa-solid fa-arrow-right-to-bracket"></i> เข้าสู่หน้าเว็บ</button>'
+        ordr2: '<button type="button" class="btn dbtn btn-outline-light "><i class="fa-regular fa-clipboard"></i> แบบฟอร์มสั่งซื้อ</button>',
+        entr: '<button type="button" class="btn introbtn dbtn btn-secondary "><i class="fa-solid fa-arrow-right-to-bracket"></i> เข้าสู่หน้าเว็บ</button>'
         
     }
 };
