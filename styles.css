@@ -1,5 +1,6 @@
 /*css for sushi*/
-
+/*this html and body will keep the page from 
+overflowing on the sides in case some elements are larger or outside the body*/
 html,
 body {
     width: 100%;
@@ -15,6 +16,7 @@ h2 {
     font-family: Lora;
     color: #fff;
 }
+
 
 
 .navbar {
@@ -71,7 +73,7 @@ h2 {
 }
 .mid {
     text-align: center;
-    
+
 }
 #page {
     width: 100%;
@@ -106,7 +108,7 @@ h2 {
 
 .wel-text {
     text-align: center;
-    padding-top: 70px;
+    padding-top: 40px;
 }
 
 .int-but {
@@ -145,4 +147,11 @@ h2 {
     text-align: center;
     padding: 5% 0%;
     color: #fff;
+}
+
+.footer {
+    text-align: center;
+    padding: 30 0 ;
+    display: flex;
+    justify-content: space-around;
 }
