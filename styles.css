@@ -151,7 +151,8 @@ h2 {
 
 .footer {
     text-align: center;
-    padding: 30 0 ;
     display: flex;
     justify-content: space-around;
+    height: 100px;
+    align-items: center;
 }
