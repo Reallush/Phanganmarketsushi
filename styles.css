@@ -65,6 +65,20 @@ h2 {
 
 }
 
+#locbac {
+    background-color: #343333;
+}
+
+.locintr {
+    padding-bottom: 50px;
+}
+
+.card-body p {
+    color: black;
+}
+
+
+
 .welpic {
     margin: auto;
     display: flex;
@@ -155,4 +169,8 @@ h2 {
     justify-content: space-around;
     height: 100px;
     align-items: center;
+}
+
+.card {
+   text-decoration: black !important;
 }
