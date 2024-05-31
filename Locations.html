@@ -1,100 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
+// Translations object
+const translations = {
+    en: {
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Locations</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/fd17ba8bea.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
-</head>
+        //navbar
+        hom: "Phangan Market Sushi",
+        sush: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-solid fa-fish"></i> Sushi library</button>',
+        ordr: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-regular fa-clipboard"></i> Order form</button>',
+        loc: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-solid fa-fish"></i> Locations</button>',
+        bout: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-regular fa-clipboard"></i> About us</button>',
 
-<body data-page="locations" id="locbac"">
-    
-    <!-- Navbar-->
-    <nav class="navbar navbar-expand-lg navcol">
-        <a id="hom" class="navbar-brand link-light" href="index.html">Phangan Market Sushi</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a id="sush" href="Sushi.html" class="nav-link link-light"></a>
-                </li>
-                <li class="nav-item">
-                    <a id="ordr" href="https://forms.gle/KR5Lo2QxgSmBZfAW9" class="nav-link link-light"></a>
-                </li>
-                <li class="nav-item">
-                    <a id="loc" href="Locations.html" class="nav-link link-light"></a>
-                </li>
-                <li class="nav-item">
-                    <a id="bout" href="About us.html" class="nav-link link-light"></a>
-                </li>
-                <li class="nav-item trl">
-                    <div class="d-flex justify-content-end mb-3">
-                        <select id="languageSelect" class="form-select w-auto">
-                            <option value="en">Eng</option>
-                            <option value="th">ไทย</option>
-                        </select>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Welcome LOGO and photo -->
-    <div class="welk">
-       <div class="locintr">
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="bc.png" class="card-img-top" alt="Card image">
-                        <div class="card-body">
-                            <h5 id="cardbigc" class="card-title"></h5>
-                            <p id="cardbigc2" class="card-text"></p>
-                            <a href="https://maps.app.goo.gl/nNwr4UhD8SLzzpRB9" class="btn btn-primary">Directions</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="ts.png" class="card-img-top" alt="Card image">
-                        <div class="card-body">
-                            <h5 id="cardts" class="card-title"></h5>
-                            <p id="cardts2" class="card-text"></p>
-                            <a href="https://maps.app.goo.gl/YWyvLb9b3aXzCDfj9" class="btn btn-primary">Directions</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="ck.png" class="card-img-top" alt="Card image">
-                        <div class="card-body">
-                            <h5 id="cardck" class="card-title"></h5>
-                            <p id="cardck2" class="card-text"></p>
-                            <a href="https://maps.app.goo.gl/wh64TgJQk2ac1e7k7" class="btn btn-primary">Directions</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-       </div>
-       <div>
-        
-       </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="script.js"></script>
-</body>
+        index: {
+            heading: "Welcome to our website!",
+            ordr2: '<button type="button" class="btn dbtn btn-outline-light btn-lg"><i class="fa-regular fa-clipboard"></i> Order Page</button>',
+            entr: '<button type="button" class="btn introbtn dbtn btn-secondary btn-lg"><i class="fa-solid fa-arrow-right-to-bracket"></i> Enter page</button>',
+        },
+        aboutus: {
 
-</html>
+            welcom: "Welcome to all sushi lovers.",
+            introtext: "For over 10 years, <br> our family has proudly served handcrafted sushi at the local market. <br><br> Each piece is made with the freshest ingredients <br>and a passion for authentic flavors. <br><br> From classic favorites to innovative creations,<br> our menu offers something for everyone. <br><br> As a family-run business, we pour our heart and soul into every roll,<br> ensuring you get the best sushi experience. <br><br> Visit us at the market and taste the difference that family dedication makes. <br> We look forward to sharing our love for sushi with you!",
+            getsu: "Getting some sushi.",
+            getsushi: "At our stall you can pick up one of the plates to select your sushi <br>once done, we will box it for you to take it home<br><br>Alternatively, you can ask us for a paper plate should you wish to eat it at the market.",
+
+        },
+        locations: {
+            cardbigc: 'Big C Ban Tai',
+            cardbigc2: 'Monday, Wednesday and Friday from 15:00-19:00.',
+            cardts: 'Walking street Thong Sala',
+            cardts2: 'Every Saturday, across the Zen. 16:00-21:00.',
+            cardck: 'Chaloklum walking street',
+            cardck2: 'Every Sunday on Chaloklum pier. 16:00-21:00',
+        },
+    },
+    th: {
+
+        //navbar
+        hom: "ซูชิตลาดพะงัน",
+        sush: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-solid fa-fish"></i> ซูชิ</button>',
+        ordr: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-regular fa-clipboard"></i> แบบฟอร์มสั่งซื้อ</button>',
+        loc: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-solid fa-fish"></i> สถานที่</button>',
+        bout: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-regular fa-clipboard"></i> เกี่ยวกับเรา</button>',
+
+        index: {
+            ordr2: '<button type="button" class="btn dbtn btn-outline-light "><i class="fa-regular fa-clipboard"></i> แบบฟอร์มสั่งซื้อ</button>',
+            entr: '<button type="button" class="btn introbtn dbtn btn-secondary "><i class="fa-solid fa-arrow-right-to-bracket"></i> เข้าสู่หน้าเว็บ</button>',
+            heading: "ยินดีตอนรับ",
+        },
+        aboutus: {
+            welcom: "ยินดีต้อนรับคนรักซูชิทุกคน",
+            introtext: "กว่า 10 ปีที่ครอบครัวของเราได้ภูมิใจนำเสนอซูชิที่ทำด้วยมือที่ตลาดท้องถิ่น<br>ทุกชิ้นทำจากวัตถุดิบที่สดใหม่ที่สุดและด้วยความหลงใหลในรสชาติที่แท้จริง<br>จากเมนูคลาสสิกยอดนิยมถึงการสร้างสรรค์ใหม่ ๆ <br>เมนูของเรามีบางสิ่งสำหรับทุกคนในฐานะธุรกิจที่ดำเนินงานโดยครอบครัว <br>เราใส่ใจและตั้งใจทำทุกม้วน <br>เพื่อให้คุณได้รับประสบการณ์ซูชิที่ดีที่สุดมาเยี่ยมชมเราที่ตลาดและสัมผัสถึง<br>ความแตกต่างที่มาจากการใส่ใจของครอบครัวเรา<br>หวังว่าจะได้แบ่งปันความรักที่เรามีต่อซูชิกับคุณ!",
+            getsu: "การซื้อซูชิ",
+            getsushi: "ที่ร้านของเรา คุณสามารถหยิบจานเพื่อเลือกซูชิของคุณ <br>เมื่อเสร็จแล้ว เราจะบรรจุใส่กล่องให้คุณนำกลับบ้าน<br><br>นอกจากนี้ คุณยังสามารถขอจานกระดาษจากเราได้หากต้องการทานที่ตลาด",
+
+        },
+
+        locations: {
+            cardbigc: 'ตลาดบิ๊กซี',
+            cardbigc2: 'วันจันทร์, วันพุธ และวันศุกร์ ตั้งแต่เวลา 15:00-19:00.',
+            cardts: 'ถนนคนเดินทองศาลา',
+            cardts2: 'ทุกวันเสาร์, ตรงข้าม Zen. 16:00-21:00.',
+            cardck: 'ถนนคนเดินโฉลกหลำ',
+            cardck2: 'ทุกวันอาทิตย์ที่ท่าเรือโฉลกหลำ. 16:00-21:00',
+        },
+    },
+};
+
+// Function to change the language
+// Function to change the language
+function changeLanguage(language, page) {
+    const pageTranslations = translations[language][page];
+
+    //navbar language
+    document.getElementById('hom').textContent = translations[language].hom;
+    document.getElementById('sush').innerHTML = translations[language].sush;
+    document.getElementById('ordr').innerHTML = translations[language].ordr;
+    document.getElementById('loc').innerHTML = translations[language].loc;
+    document.getElementById('bout').innerHTML = translations[language].bout;
+
+    //the rest of the page
+    for (const key in pageTranslations) {
+        if (pageTranslations.hasOwnProperty(key)) {
+            document.getElementById(key).innerHTML = pageTranslations[key];
+        }
+    }
+
+    localStorage.setItem('preferredLanguage', language);
+    localStorage.setItem('preferredPage', page);
+}
+
+// Event listener for the language select dropdown
+document.getElementById('languageSelect').addEventListener('change', function () {
+    const page = document.body.dataset.page;
+    changeLanguage(this.value, page);
+});
+
+// Retrieve preferred language from local storage and set it
+document.addEventListener('DOMContentLoaded', (event) => {
+    const savedLanguage = localStorage.getItem('preferredLanguage') || 'en';
+    const page = document.body.dataset.page;
+    document.getElementById('languageSelect').value = savedLanguage;
+    changeLanguage(savedLanguage, page);
+});
+
