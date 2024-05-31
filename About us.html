@@ -12,44 +12,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <!-- Navbar-->
 
-<body>
+<body data-page="aboutus">
     <nav class="navbar navbar-expand-lg navcol">
-        <A class="navbar-brand link-light" href="index.html">Phangan Market Sushi</A>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <a id="hom" class="navbar-brand link-light" href="index.html">Phangan Market Sushi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-
             <ul class="navbar-nav ms-auto">
-
                 <li class="nav-item">
-                    <a href="Sushi.html" class="nav-link link-light"><button type="button"
-                            class="btn dbtn btn-outline-light btn-sm"><i
-                                class="fa-solid fa-fish"></i> Sushi library</button></a>
+                    <a id="sush" href="Sushi.html" class="nav-link link-light"></a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://forms.gle/KR5Lo2QxgSmBZfAW9" class="nav-link link-light"><button type="button"
-                        class="btn dbtn btn-outline-light btn-sm"><i
-                            class="fa-regular fa-clipboard"></i> Order form</button></a>
+                    <a id="ordr" href="https://forms.gle/KR5Lo2QxgSmBZfAW9" class="nav-link link-light"></a>
                 </li>
                 <li class="nav-item">
-                    <a href="Locations.html" class="nav-link link-light"><button type="button"
-                        class="btn dbtn btn-outline-light btn-sm"><i
-                            class="fa-solid fa-location-dot"></i> Locations</button></a>
+                    <a id="loc" href="Locations.html" class="nav-link link-light"></a>
                 </li>
-
                 <li class="nav-item">
-                    <a href="About us.html" class="nav-link link-light"><button type="button"
-                        class="btn dbtn btn-outline-light btn-sm"><i
-                            class="fa-regular fa-address-card"></i> About us</button></a>
+                    <a id="bout" href="About us.html" class="nav-link link-light"></a>
                 </li>
                 <li class="nav-item trl">
                     <div class="d-flex justify-content-end mb-3">
@@ -57,30 +44,20 @@
                             <option value="en">Eng</option>
                             <option value="th">ไทย</option>
                         </select>
+                    </div>
                 </li>
             </ul>
         </div>
     </nav>
         <!--welcome LOGO and photo-->
         <div class="welk">
-            <div class="pager row">
-                <img id="page" src="page.png">
-            </div>
             <div class="txtpic row">
                 <div class="text col-lg-7">
                     <h2 id="welcom">
-                        Welcome to all sushi lovers.
+                        if you see this its not working.
                     </h2>
                     <br>
                     <P class="t1" id="introtext">
-                        Welcome to our sushi stall! For over 10 years, <br>
-                        our family has proudly served handcrafted sushi at the local market. <br><br>
-                        Each piece is made with the freshest ingredients <br>and a passion for authentic flavors. <br><br>
-                        From classic favorites to innovative creations,<br> our menu offers something for everyone. <br><br>
-                        As a family-run business, we pour our heart and soul into every roll,<br>
-                        ensuring you get the best sushi experience. <br><br>
-                        Visit us at the market and taste the difference that family dedication makes. <br>
-                        We look forward to sharing our love for sushi with you!
                     </P>
 
                 </div>
@@ -94,17 +71,11 @@
    
     <div class="inf">
         <div>
-            <h2>
-                Getting some sushi.
+            <h2 id="getsu">
+              
             </h2>
-            <p>
-                While the page might be interesting, the real pleasure is in enjoying sushi.<br><br>
-                The first way to obtain the heavenly bites is to find us on the market,<br><br>
-                We have two options available, take away in a box or a paper plate to eat on the market.<br>
-                When eating on the market you simple need to ask for a small or big paper plate,<br>
-                we generally recommend a large plate when taking more than 8 pieces of sushi.<br><br>
-                For take away there are plastic plates for you to select your sushi which we will box for you.<br>
-
+            <p id="getsushi">
+               
 
                 delivery/catering
             </p>
@@ -113,7 +84,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-    <script src="about.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
