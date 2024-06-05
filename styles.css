@@ -12,7 +12,8 @@ body {
 
 p,
 h1,
-h2 {
+h2,
+h3 {
     font-family: Lora;
     color: #fff;
 }
@@ -83,38 +84,50 @@ h2 {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding-top: 5%;
+    padding: 5% 2%;
 }
+
 .mid {
     text-align: center;
+    width: 100%;
 
 }
+
 #page {
     width: 100%;
-  display: inline-block;
-  
-    
+
+
 }
+
 .left {
     text-align: center;
     margin: auto;
+    width: 50%;
 }
+
 #left {
-    width: 60%;
-    display: inline-block;
+    width: 80%;
     margin: auto;
 
 }
+
 .right {
     text-align: center;
+    width: 50%;
     margin: auto;
-}
-#right {
-  width: 60%;
-  display: inline-block;
-  margin: auto;
 
 }
+
+#right {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+
+}
+
+
+
+
 
 .txtpic .wel-text .welcome .int-but .mb-3 {
     margin: auto;
@@ -171,6 +184,48 @@ h2 {
     align-items: center;
 }
 
+/* location css */
 .card {
-   text-decoration: black !important;
+    text-decoration: black !important;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*sushi catalog css*/
+.sushimain {
+    color: white;
+}
+
+#cat {
+    text-align: center;
+    padding: 5% 0%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sushis {
+    width: 25%;
+}
+
+.sushimg {
+    width: 100%;
+}
+
+.sushtext {
+    flex: 1 1 200px; /* Flex-grow, flex-shrink, flex-basis */
+    margin: 10px;
+    
+}
+
+@media (max-width: 600px) {
+    .sushis {
+        max-width: 100%;
+        padding: 10px;
+        width: 40%;
+        /* Add some padding for smaller screens */
+    }
 }
