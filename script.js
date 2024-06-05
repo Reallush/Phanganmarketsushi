@@ -1,26 +1,23 @@
 // Translations object
 const translations = {
     en: {
-
         //navbar
         hom: "Phangan Market Sushi",
         sush: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-solid fa-fish"></i> Sushi library</button>',
         ordr: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-regular fa-clipboard"></i> Order form</button>',
         loc: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-solid fa-fish"></i> Locations</button>',
         bout: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-regular fa-clipboard"></i> About us</button>',
-
+        
         index: {
             heading: "Welcome to our website!",
             ordr2: '<button type="button" class="btn dbtn btn-outline-light btn-lg"><i class="fa-regular fa-clipboard"></i> Order Page</button>',
             entr: '<button type="button" class="btn introbtn dbtn btn-secondary btn-lg"><i class="fa-solid fa-arrow-right-to-bracket"></i> Enter page</button>',
         },
         aboutus: {
-
             welcom: "Welcome to all sushi lovers.",
             introtext: "For over 10 years, <br> our family has proudly served handcrafted sushi at the local market. <br><br> Each piece is made with the freshest ingredients <br>and a passion for authentic flavors. <br><br> From classic favorites to innovative creations,<br> our menu offers something for everyone. <br><br> As a family-run business, we pour our heart and soul into every roll,<br> ensuring you get the best sushi experience. <br><br> Visit us at the market and taste the difference that family dedication makes. <br> We look forward to sharing our love for sushi with you!",
             getsu: "Getting some sushi.",
             getsushi: "At our stall you can pick up one of the plates to select your sushi <br>once done, we will box it for you to take it home<br><br>Alternatively, you can ask us for a paper plate should you wish to eat it at the market.",
-
         },
         locations: {
             cardbigc: 'Big C Ban Tai',
@@ -30,16 +27,20 @@ const translations = {
             cardck: 'Chaloklum walking street',
             cardck2: 'Every Sunday on Chaloklum pier. 16:00-21:00',
         },
+        catalog: {
+            cat: 'Sushi catalog',
+            salmon: 'Ingredients:<br>Rice, Salmon',
+            tamago:'Ingredients:<br>Rice, Omelette, seaweed wrap',
+            seaweed:'Ingredients:<br> Rice, seaweed wrap, wakame seaweed salad, sesame'
+        },
     },
     th: {
-
         //navbar
         hom: "ซูชิตลาดพะงัน",
         sush: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-solid fa-fish"></i> ซูชิ</button>',
         ordr: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-regular fa-clipboard"></i> แบบฟอร์มสั่งซื้อ</button>',
         loc: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-solid fa-fish"></i> สถานที่</button>',
         bout: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-regular fa-clipboard"></i> เกี่ยวกับเรา</button>',
-
         index: {
             ordr2: '<button type="button" class="btn dbtn btn-outline-light "><i class="fa-regular fa-clipboard"></i> แบบฟอร์มสั่งซื้อ</button>',
             entr: '<button type="button" class="btn introbtn dbtn btn-secondary "><i class="fa-solid fa-arrow-right-to-bracket"></i> เข้าสู่หน้าเว็บ</button>',
@@ -50,9 +51,7 @@ const translations = {
             introtext: "กว่า 10 ปีที่ครอบครัวของเราได้ภูมิใจนำเสนอซูชิที่ทำด้วยมือที่ตลาดท้องถิ่น<br>ทุกชิ้นทำจากวัตถุดิบที่สดใหม่ที่สุดและด้วยความหลงใหลในรสชาติที่แท้จริง<br>จากเมนูคลาสสิกยอดนิยมถึงการสร้างสรรค์ใหม่ ๆ <br>เมนูของเรามีบางสิ่งสำหรับทุกคนในฐานะธุรกิจที่ดำเนินงานโดยครอบครัว <br>เราใส่ใจและตั้งใจทำทุกม้วน <br>เพื่อให้คุณได้รับประสบการณ์ซูชิที่ดีที่สุดมาเยี่ยมชมเราที่ตลาดและสัมผัสถึง<br>ความแตกต่างที่มาจากการใส่ใจของครอบครัวเรา<br>หวังว่าจะได้แบ่งปันความรักที่เรามีต่อซูชิกับคุณ!",
             getsu: "การซื้อซูชิ",
             getsushi: "ที่ร้านของเรา คุณสามารถหยิบจานเพื่อเลือกซูชิของคุณ <br>เมื่อเสร็จแล้ว เราจะบรรจุใส่กล่องให้คุณนำกลับบ้าน<br><br>นอกจากนี้ คุณยังสามารถขอจานกระดาษจากเราได้หากต้องการทานที่ตลาด",
-
         },
-
         locations: {
             cardbigc: 'ตลาดบิ๊กซี',
             cardbigc2: 'วันจันทร์, วันพุธ และวันศุกร์ ตั้งแต่เวลา 15:00-19:00.',
@@ -61,13 +60,23 @@ const translations = {
             cardck: 'ถนนคนเดินโฉลกหลำ',
             cardck2: 'ทุกวันอาทิตย์ที่ท่าเรือโฉลกหลำ. 16:00-21:00',
         },
+        catalog: {
+            cat: 'แคตตาล็อกซูชิ',
+            salmon: 'ส่วนผสม:<br>ข้าว, แซลมอน',
+            tamago: 'ส่วนผสม:<br>ข้าว, ไข่หวาน, สาหร่ายห่อ',
+            seaweed: 'ส่วนผสม:<br>ข้าว, สาหร่ายห่อ, สลัดสาหร่ายวากาเมะ, งา'
+        },
     },
 };
 
 // Function to change the language
-// Function to change the language
 function changeLanguage(language, page) {
     const pageTranslations = translations[language][page];
+
+        // Retrieve the translation for the repetitive word
+    
+    
+    // Rest of your JavaScript code...
 
     //navbar language
     document.getElementById('hom').textContent = translations[language].hom;
@@ -81,6 +90,7 @@ function changeLanguage(language, page) {
         if (pageTranslations.hasOwnProperty(key)) {
             document.getElementById(key).innerHTML = pageTranslations[key];
         }
+      
     }
 
     localStorage.setItem('preferredLanguage', language);
@@ -100,4 +110,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     document.getElementById('languageSelect').value = savedLanguage;
     changeLanguage(savedLanguage, page);
 });
+
+
+
 
