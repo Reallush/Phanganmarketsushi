@@ -7,7 +7,7 @@ const translations = {
         ordr: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-regular fa-clipboard"></i> Order form</button>',
         loc: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-solid fa-fish"></i> Locations</button>',
         bout: '<button type="button" class="btn dbtn btn-outline-light btn-sm"><i class="fa-regular fa-clipboard"></i> About us</button>',
-        
+
         index: {
             heading: "Welcome to our website!",
             ordr2: '<button type="button" class="btn dbtn btn-outline-light btn-lg"><i class="fa-regular fa-clipboard"></i> Order Page</button>',
@@ -30,20 +30,37 @@ const translations = {
         catalog: {
             cat: 'Sushi catalog',
             salmon: 'Ingredients:<br>Rice, Salmon',
-            tamago:'Ingredients:<br>Rice, Omelette, seaweed wrap',
-            seaweed:'Ingredients:<br> Rice, seaweed wrap, wakame seaweed salad, sesame',
-            tuna:'Ingredients:<br> Rice, tuna, mayonnaise, seaweed',
-            crab:'Ingredients:<br> Rice, surimi (imitation crab, made from white fish), mayonnaise, seaweed',
-            tobiko:'Ingredients:<br> Rice, tobiko (fish roe), seaweed',
-            shrimp:'Ingredients:<br> Rice, shrimp, mayonnaise, seaweeed',
-            tako:'Ingredients:<br> Rice, octopus in chilli sauce, sesame, seaweed',
-            surimi:'Ingredients:<br> Rice, surimi, seaweed',
-            scallfin:'Ingredients:<br> Rice, scallop fins in chilli sauce, seaweed, sesame',
-            egg:'Ingredients:<br> Rice, quail egg, mayonnaise, tobiko, seaweed',
-            tobired:'Ingredients:<br> Rice, tobiko (red fish roe), seaweed',
-            crabtobi:'Ingredients:<br> Rice, surimi, mayonnaise, tobiko, seaweed',
-            cheeseshr:'Ingredients:<br> Rice, cheddar cheese, mayonnaise, shrimp',
-            cheesetob:'Ingredients:<br> Rice, cheddar cheese, mayonnaise, tobiko',
+            tamago: 'Ingredients:<br>Rice, Omelette, seaweed wrap',
+            seaweed: 'Ingredients:<br> Rice, seaweed wrap, wakame seaweed salad, sesame',
+            tuna: 'Ingredients:<br> Rice, tuna, mayonnaise, seaweed',
+            crab: 'Ingredients:<br> Rice, surimi (imitation crab, made from white fish), mayonnaise, seaweed',
+            tobiko: 'Ingredients:<br> Rice, tobiko (fish roe), seaweed',
+            shrimp: 'Ingredients:<br> Rice, shrimp, mayonnaise, seaweeed',
+            tako: 'Ingredients:<br> Rice, octopus in chilli sauce, sesame, seaweed',
+            surimi: 'Ingredients:<br> Rice, surimi, seaweed',
+            scallfin: 'Ingredients:<br> Rice, scallop fins in chilli sauce, seaweed, sesame',
+            egg: 'Ingredients:<br> Rice, quail egg, mayonnaise, tobiko, seaweed',
+            tobired: 'Ingredients:<br> Rice, tobiko (red fish roe), seaweed',
+            crabtobi: 'Ingredients:<br> Rice, surimi, mayonnaise, tobiko, seaweed',
+            cheeseshr: 'Ingredients:<br> Rice, cheddar cheese, mayonnaise, shrimp',
+            cheesetob: 'Ingredients:<br> Rice, cheddar cheese, mayonnaise, tobiko',
+            tobimaki: 'Ingredients:<br> Rice, carrot,cucumber,surimi, tamago, seaweed tobiko',
+            salmaki: 'Ingredients:<br> Rice, salmon, carrot,cucumber,surimi, tamago, seaweed tobiko',
+            sprout: 'Ingredients:<br> Rice, carrot,cucumber,surimi, tamago, seaweed',
+            suritabi: 'Ingredients:<br> Rice, surimi, tobiko',
+            suriweed: 'Ingredients:<br> Rice, surimi, mayonnaise, seaweed, tobiko,',
+            mackerel: 'Ingredients:<br> Rice, mackerel, seaweed, sesame, teriyaki',
+            scallop:'Ingredients:<br> Rice, scallop in chilli sauce, sesame',
+            kelp:'Ingredients:<br> Rice, mayonnaise, kelp, food coloring',
+            bbqsal:'Ingredients:<br> Rice, shredded bbq salmon, mayonnaise',
+            cenegg:'Ingredients:<br> Rice, century egg, mayonnaise, tobiko',
+            torchsalm:'Ingredients:<br> Rice, salmon',
+            avocream:'Ingredients:<br> Rice, avocado, cream cheese, seaweed',
+            aburisal:'Ingredients:<br> Rice, salmon, teriyaki, mayonnaise, cheese dip',
+            aburishrim:'Ingredients:<br> Rice, shrimp, teriyaki, mayonnaise, cheese dip',
+            aburisuri:'Ingredients:<br> Rice, surimi, teriyaki, mayonnaise, cheese dip',
+            chickn:'Ingredients:<br> Rice, chicken stripe, teriyaki, mayonnaise, cheese dip',
+            bigphila:'Ingredients:<br> Rice, avocado, cream cheese, salmon, seaweed, teriyaki, sesame',
         },
     },
     th: {
@@ -89,6 +106,24 @@ const translations = {
             crabtobi: 'ส่วนผสม:<br>ข้าว, ซูริมิ, มายองเนส, โทบิโกะ, สาหร่าย',
             cheeseshr: 'ส่วนผสม:<br>ข้าว, เชดดาร์ชีส, มายองเนส, กุ้ง',
             cheesetob: 'ส่วนผสม:<br>ข้าว, เชดดาร์ชีส, มายองเนส, โทบิโกะ',
+            tobimaki: 'ส่วนผสม:<br> ข้าว, แครอท, แตงกวา, ปูอัด, ไข่หวาน, สาหร่าย, โทบิโกะ',
+            salmaki: 'ส่วนผสม:<br> ข้าว, แซลมอน, แครอท, แตงกวา, ปูอัด, ไข่หวาน, สาหร่าย, โทบิโกะ',
+            sprout: 'ส่วนผสม:<br> ข้าว, แครอท, แตงกวา, ปูอัด, ไข่หวาน, สาหร่าย',
+            suritabi: 'ส่วนผสม:<br> ข้าว, ปูอัด, โทบิโกะ',
+            suriweed: 'ส่วนผสม:<br> ข้าว, ปูอัด, มายองเนส, สาหร่าย, โทบิโกะ',
+            mackerel: 'ส่วนผสม:<br> ข้าว, ปลาซาบะ, สาหร่าย, งา, เทอริยากิ',
+            scallop: 'วัตถุดิบ:<br> ข้าว, หอยเชลล์ในซอสพริก, งา',
+            kelp: 'วัตถุดิบ:<br> ข้าว, มายองเนส, สาหร่ายทะเล, สีผสมอาหาร',
+            bbqsal: 'วัตถุดิบ:<br> ข้าว, แซลมอนบาร์บีคิว, มายองเนส',
+            cenegg: 'วัตถุดิบ:<br> ข้าว, ไข่เยี่ยวม้า, มายองเนส, โทบิโกะ',
+            torchsalm: 'วัตถุดิบ:<br> ข้าว, แซลมอน',
+            avocream: 'วัตถุดิบ:<br> ข้าว, อะโวคาโด, ครีมชีส, สาหร่าย',
+            aburisal: 'วัตถุดิบ:<br> ข้าว, แซลมอน, ซอสเทอริยากิ, มายองเนส, ชีสดิป',
+            aburishrim: 'วัตถุดิบ:<br> ข้าว, กุ้ง, ซอสเทอริยากิ, มายองเนส, ชีสดิป',
+            aburisuri: 'วัตถุดิบ:<br> ข้าว, ปูอัด, ซอสเทอริยากิ, มายองเนส, ชีสดิป',
+            chickn: 'วัตถุดิบ:<br> ข้าว, ไก่, ซอสเทอริยากิ, มายองเนส, ชีสดิป',
+            bigphila: 'วัตถุดิบ:<br> ข้าว, อะโวคาโด, ครีมชีส, แซลมอน, สาหร่าย, ซอสเทอริยากิ, งา',
+        
         },
     },
 };
@@ -97,9 +132,9 @@ const translations = {
 function changeLanguage(language, page) {
     const pageTranslations = translations[language][page];
 
-        // Retrieve the translation for the repetitive word
-    
-    
+    // Retrieve the translation for the repetitive word
+
+
     // Rest of your JavaScript code...
 
     //navbar language
@@ -114,7 +149,7 @@ function changeLanguage(language, page) {
         if (pageTranslations.hasOwnProperty(key)) {
             document.getElementById(key).innerHTML = pageTranslations[key];
         }
-      
+
     }
 
     localStorage.setItem('preferredLanguage', language);
@@ -137,4 +172,21 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
 
+//search option for sushi catalog
+document.addEventListener('DOMContentLoaded', (event) => {
+    const searchInput = document.getElementById('searchInput');
+    const sushiItems = document.querySelectorAll('.sushis');
+
+    searchInput.addEventListener('keyup', function() {
+        const filter = searchInput.value.toLowerCase();
+        sushiItems.forEach(item => {
+            const name = item.getAttribute('data-name').toLowerCase();
+            if (name.includes(filter)) {
+                item.style.display = '';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    });
+});
 
