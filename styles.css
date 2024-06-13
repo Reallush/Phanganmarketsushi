@@ -292,6 +292,7 @@ h3 {
     }
     .sushis:hover {
         transform: scale(150%);
+        background-color: black;
     }
     
 }
