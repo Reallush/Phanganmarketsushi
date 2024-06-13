@@ -1,4 +1,4 @@
-// Translations object
+// this area is for general translation of the page. 
 const translations = {
     en: {
         //navbar
@@ -27,54 +27,8 @@ const translations = {
             cardck: 'Chaloklum walking street',
             cardck2: 'Every Sunday on Chaloklum pier. 16:00-21:00',
         },
-        catalog: {
-            cat: 'Sushi catalog',
-            salmon: 'Ingredients:<br>Rice, Salmon',
-            tamago: 'Ingredients:<br>Rice, Omelette, seaweed wrap',
-            seaweed: 'Ingredients:<br> Rice, seaweed wrap, wakame seaweed salad, sesame',
-            tuna: 'Ingredients:<br> Rice, tuna, mayonnaise, seaweed',
-            crab: 'Ingredients:<br> Rice, surimi (imitation crab, made from white fish), mayonnaise, seaweed',
-            tobiko: 'Ingredients:<br> Rice, tobiko (fish roe), seaweed',
-            shrimp: 'Ingredients:<br> Rice, shrimp, mayonnaise, seaweeed',
-            tako: 'Ingredients:<br> Rice, octopus in chilli sauce, sesame, seaweed',
-            surimi: 'Ingredients:<br> Rice, surimi, seaweed',
-            scallfin: 'Ingredients:<br> Rice, scallop fins in chilli sauce, seaweed, sesame',
-            egg: 'Ingredients:<br> Rice, quail egg, mayonnaise, tobiko, seaweed',
-            tobired: 'Ingredients:<br> Rice, tobiko (red fish roe), seaweed',
-            crabtobi: 'Ingredients:<br> Rice, surimi, mayonnaise, tobiko, seaweed',
-            cheeseshr: 'Ingredients:<br> Rice, cheddar cheese, mayonnaise, shrimp',
-            cheesetob: 'Ingredients:<br> Rice, cheddar cheese, mayonnaise, tobiko',
-            tobimaki: 'Ingredients:<br> Rice, carrot,cucumber,surimi, tamago, seaweed tobiko',
-            salmaki: 'Ingredients:<br> Rice, salmon, carrot,cucumber,surimi, tamago, seaweed tobiko',
-            sprout: 'Ingredients:<br> Rice, carrot,cucumber,surimi, tamago, seaweed',
-            suritabi: 'Ingredients:<br> Rice, surimi, tobiko',
-            suriweed: 'Ingredients:<br> Rice, surimi, mayonnaise, seaweed, tobiko,',
-            mackerel: 'Ingredients:<br> Rice, mackerel, seaweed, sesame, teriyaki',
-            scallop: 'Ingredients:<br> Rice, scallop in chilli sauce, sesame',
-            kelp: 'Ingredients:<br> Rice, mayonnaise, kelp, food coloring',
-            bbqsal: 'Ingredients:<br> Rice, shredded bbq salmon, mayonnaise',
-            cenegg: 'Ingredients:<br> Rice, century egg, mayonnaise, tobiko',
-            torchsalm: 'Ingredients:<br> Rice, salmon',
-            avocream: 'Ingredients:<br> Rice, avocado, cream cheese, seaweed',
-            aburisal: 'Ingredients:<br> Rice, salmon, teriyaki, mayonnaise, cheese dip',
-            aburishrim: 'Ingredients:<br> Rice, shrimp, teriyaki, mayonnaise, cheese dip',
-            aburisuri: 'Ingredients:<br> Rice, surimi, teriyaki, mayonnaise, cheese dip',
-            chickn: 'Ingredients:<br> Rice, chicken stripe, teriyaki, mayonnaise, cheese dip',
-            bigphila: 'Ingredients:<br> Rice, avocado, cream cheese, salmon, seaweed, teriyaki, sesame',
-            philsm: 'Ingredients:<br> Rice, salmon,cucumber, cream cheese, sesame, seaweed',
-            avosalm: 'Ingredients:<br> Rice, salmon, avocado, seaweed',
-            tunamaki: 'Ingredients:<br> Rice, tuna, tamago, surimi, cucumber,carrot, tobiko, seaweed',
-            mango: 'Ingredients:<br> Rice, avocado, cucumber, mango, seaweed',
-            japan: 'Ingredients:<br> Rice, salmon, cream cheese, japanese cucumber, tobiko, mayonnaise, seaweed',
-            shrmaki: 'Ingredients:<br> Rice, shrimp, surimi, tamago, cucumber, carrot, seaweed',
-            spicysalrol: 'Ingredients:<br> Rice, salmon, avocado, spicy mayo, mayonnaise, tobiko',
-            spicytuna: 'Ingredients:<br> Rice, tuna, spicy mayo, cucumber, seaweed, sesame',
-            spicysalm: 'Ingredients:<br> Rice, salmon, spicy mayo, tobiko',
-            tofsal: 'Ingredients:<br> Rice, tofu, salmon, spicy mayo, sesame',
-            tofavo: 'Ingredients:<br> Rice, tofu, avocado, sesame',
-            salaburol: 'Ingredients:<br> Rice, salmon, tamago, surimi, carrot, cucumber, seaweed, mayonnaise, teriyaki, cheese dip',
-            mackaburol: 'Ingredients:<br> Rice, mackarel, tamago, surimi, carrot, cucumber, seaweed, mayonnaise, teriyaki, cheese dip',
-        },
+        //           `${getIngredients ('en','r',)}`,
+
     },
     th: {
         //navbar
@@ -102,56 +56,7 @@ const translations = {
             cardck: 'ถนนคนเดินโฉลกหลำ',
             cardck2: 'ทุกวันอาทิตย์ที่ท่าเรือโฉลกหลำ. 16:00-21:00',
         },
-        catalog: {
-            cat: 'แคตตาล็อกซูชิ',
-            salmon: 'ส่วนผสม:<br>ข้าว, แซลมอน',
-            tamago: 'ส่วนผสม:<br>ข้าว, ไข่หวาน, สาหร่าย',
-            seaweed: 'ส่วนผสม:<br>ข้าว, สาหร่าย, สลัดสาหร่ายวากาเมะ, งา',
-            tuna: 'ส่วนผสม:<br>ข้าว, ทูน่า, มายองเนส, สาหร่าย',
-            crab: 'ส่วนผสม:<br>ข้าว, ซูริมิ (ปูอัดทำจากเนื้อปลา), มายองเนส, สาหร่าย',
-            tobiko: 'ส่วนผสม:<br>ข้าว, โทบิโกะ (ไข่ปลา), สาหร่าย',
-            shrimp: 'ส่วนผสม:<br>ข้าว, กุ้ง, มายองเนส, สาหร่าย',
-            tako: 'ส่วนผสม:<br>ข้าว, ปลาหมึกในซอสพริก, งา, สาหร่าย',
-            surimi: 'ส่วนผสม:<br>ข้าว, ซูริมิ, สาหร่าย',
-            scallfin: 'ส่วนผสม:<br>ข้าว, ครีบหอยเชลล์ในซอสพริก, สาหร่าย, งา',
-            egg: 'ส่วนผสม:<br>ข้าว, ไข่นกกระทา, มายองเนส, โทบิโกะ, สาหร่าย',
-            tobired: 'ส่วนผสม:<br>ข้าว, โทบิโกะ (ไข่ปลาสีแดง), สาหร่าย',
-            crabtobi: 'ส่วนผสม:<br>ข้าว, ซูริมิ, มายองเนส, โทบิโกะ, สาหร่าย',
-            cheeseshr: 'ส่วนผสม:<br>ข้าว, เชดดาร์ชีส, มายองเนส, กุ้ง',
-            cheesetob: 'ส่วนผสม:<br>ข้าว, เชดดาร์ชีส, มายองเนส, โทบิโกะ',
-            tobimaki: 'ส่วนผสม:<br> ข้าว, แครอท, แตงกวา, ปูอัด, ไข่หวาน, สาหร่าย, โทบิโกะ',
-            salmaki: 'ส่วนผสม:<br> ข้าว, แซลมอน, แครอท, แตงกวา, ปูอัด, ไข่หวาน, สาหร่าย, โทบิโกะ',
-            sprout: 'ส่วนผสม:<br> ข้าว, แครอท, แตงกวา, ปูอัด, ไข่หวาน, สาหร่าย',
-            suritabi: 'ส่วนผสม:<br> ข้าว, ปูอัด, โทบิโกะ',
-            suriweed: 'ส่วนผสม:<br> ข้าว, ปูอัด, มายองเนส, สาหร่าย, โทบิโกะ',
-            mackerel: 'ส่วนผสม:<br> ข้าว, ปลาซาบะ, สาหร่าย, งา, เทอริยากิ',
-            scallop: 'ส่วนผสม:<br> ข้าว, หอยเชลล์ในซอสพริก, งา',
-            kelp: 'ส่วนผสม:<br> ข้าว, มายองเนส, สาหร่ายทะเล, สีผสมอาหาร',
-            bbqsal: 'ส่วนผสม:<br> ข้าว, แซลมอนบาร์บีคิว, มายองเนส',
-            cenegg: 'ส่วนผสม:<br> ข้าว, ไข่เยี่ยวม้า, มายองเนส, โทบิโกะ',
-            torchsalm: 'ส่วนผสม:<br> ข้าว, แซลมอน',
-            avocream: 'ส่วนผสม:<br> ข้าว, อะโวคาโด, ครีมชีส, สาหร่าย',
-            aburisal: 'ส่วนผสม:<br> ข้าว, แซลมอน, ซอสเทอริยากิ, มายองเนส, ชีสดิป',
-            aburishrim: 'ส่วนผสม:<br> ข้าว, กุ้ง, ซอสเทอริยากิ, มายองเนส, ชีสดิป',
-            aburisuri: 'ส่วนผสม:<br> ข้าว, ปูอัด, ซอสเทอริยากิ, มายองเนส, ชีสดิป',
-            chickn: 'ส่วนผสม:<br> ข้าว, ไก่, ซอสเทอริยากิ, มายองเนส, ชีสดิป',
-            bigphila: 'ส่วนผสม:<br> ข้าว, อะโวคาโด, ครีมชีส, แซลมอน, สาหร่าย, ซอสเทอริยากิ, งา',
-            philsm: 'ส่วนผสม:<br> ข้าว, แซลมอน, แตงกวา, ครีมชีส, เซซามี, สาหร่าย',
-            avosalm: 'ส่วนผสม:<br> ข้าว, แซลมอน, อะโวคาโด, สาหร่าย',
-            tunamaki: 'ส่วนผสม:<br> ข้าว, ทูน่า, ไข่เจียว, ซูริมิ, แตงกวา, แครอท, โทบิโก, สาหร่าย',
-            mango: 'ส่วนผสม:<br> ข้าว, อะโวคาโด, แตงกวา, มะม่วง, สาหร่าย',
-            japan: 'ส่วนผสม:<br> ข้าว, แซลมอน, ครีมชีส, แตงกวาญี่ปุ่น, โทบิโก, มายองเนส, สาหร่าย',
-            shrmaki: 'ส่วนผสม:<br> ข้าว, กุ้ง, ซูริมิ, ไข่เจียว, แตงกวา, แครอท, สาหร่าย',
-            spicysalrol: 'ส่วนผสม:<br> ข้าว, แซลมอน, อะโวคาโด, มายองเนสเผ็ด, มายองเนส, โทบิโก',
-            spicytuna: 'ส่วนผสม:<br> ข้าว, ทูน่า, มายองเนสเผ็ด, แตงกวา, สาหร่าย, งา, ซีเซมี',
-            spicysalm: 'ส่วนผสม:<br> ข้าว, แซลมอน, มายองเนสเผ็ด, โทบิโก',
-            tofsal: 'ส่วนผสม:<br> ข้าว, เต้าหู้, แซลมอน, มายองเนสเผ็ด, งา',
-            tofavo: 'ส่วนผสม:<br> ข้าว, เต้าหู้, อะโวคาโด, งา',
-            salaburol: 'ส่วนผสม:<br> ข้าว, แซลมอน, ไข่หวาน, ซูริมิ, แครอท, แตงกวา, สาหร่าย, มายองเนส, เทอริยากิ, ชีสดิป',
-            mackaburol: 'ส่วนผสม:<br> ข้าว, ปลาซาบะ, ไข่หวาน, ซูริมิ, แครอท, แตงกวา, สาหร่าย, มายองเนส, เทอริยากิ, ชีสดิป',
 
-
-        },
     },
 };
 
@@ -159,7 +64,7 @@ const translations = {
 function changeLanguage(language, page) {
     const pageTranslations = translations[language][page];
 
-    // Retrieve the translation for the repetitive word
+
 
 
     // Rest of your JavaScript code...
@@ -170,6 +75,7 @@ function changeLanguage(language, page) {
     document.getElementById('ordr').innerHTML = translations[language].ordr;
     document.getElementById('loc').innerHTML = translations[language].loc;
     document.getElementById('bout').innerHTML = translations[language].bout;
+
 
     //the rest of the page
     for (const key in pageTranslations) {
@@ -183,11 +89,15 @@ function changeLanguage(language, page) {
     localStorage.setItem('preferredPage', page);
 }
 
+
+
 // Event listener for the language select dropdown
 document.getElementById('languageSelect').addEventListener('change', function () {
     const page = document.body.dataset.page;
     changeLanguage(this.value, page);
 });
+
+
 
 // Retrieve preferred language from local storage and set it
 document.addEventListener('DOMContentLoaded', (event) => {
@@ -216,4 +126,254 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
     });
 });
+
+//                  --------   Sushi library starting here. -------------
+//====================================================================================================
+
+const ingredientLibrary = {
+    en: {
+        H: 'Sushi catalog',
+        ing: 'Ingredients:',
+        r: 'Rice',
+        sa: 'Salmon',
+        cu: 'Cucumber',
+        cre: 'Cream cheese',
+        ses: 'Sesame',
+        sea: 'Seaweed',
+        av: 'Avocado',
+        tu: 'Tuna',
+        ta: 'Tamago',
+        su: 'Surimi',
+        ca: 'Carrot',
+        to: 'Tobiko', 
+        sh: 'Shrimp',
+        sp: 'Spicy mayo',
+        may: 'Mayonnaise',
+        tof: 'Tofu',
+        ma: 'Mackerel',
+        te: 'Teriyaki',
+        ch: 'Cheese',
+        man: 'Mango',
+        ja: 'Japanese cucumber',
+        oc: 'Octopus in chilli sauce',
+        sc: 'scallops',
+        sf: 'scallop fin',
+        qu: 'quail egg',
+        ke: 'colored kelp balls',
+        chd: 'cheese dip',
+        ba: 'chicken stripe',
+        ceg:'century egg'
+    },
+    th: {
+        H: 'แคตตาล็อกซูชิ',
+        ing: 'ส่วนผสม:',
+        r: 'ข้าว',
+        sa: 'แซลมอน',
+        cu: 'แตงกวา',
+        cre: 'ครีมชีส',
+        ses: 'งา',
+        sea: 'สาหร่าย',
+        av: 'อะโวคาโด',
+        tu: 'ทูน่า',
+        ta: 'ไข่หวาน',
+        su: 'ปูอัด',
+        ca: 'แครอท',
+        to: 'ไข่กุ้ง',
+        sh: 'กุ้ง',
+        sp: 'สไปซี่มาโย',
+        may: 'มายอนเนส',
+        tof: 'เต้าหู้',
+        ma: 'ปลาซาบะ',
+        te: 'เทอริยากิ',
+        ch: 'ชีส',
+        man: 'มะม่วง',
+        ja: 'แตงกวาญี่ปุ่น',
+        oc: 'ปลาหมึก',
+        sc: 'หอยเชลล์',
+        sf: 'ครีบหอยเชลล์',
+        qu: 'ไข่นกกระทา',
+        ke: 'ไข่มังกร',
+        chd: 'น้ำจิ้มชีส',
+        ba: 'เบคอนไก่',
+        ceg: 'ไข่เยี่ยวม้า',
+
+    }
+};
+
+// Function to generate ingredient list from keys
+
+// Function to get ingredients based on selected language and keys
+function getIngredients(language, ...keys) {
+    const ingredientNames = keys.map(key => {
+        if (key === 'H') {
+            return ingredientLibrary[language][key];
+        } else if (key.endsWith('ing')) {
+            return ingredientLibrary[language][key];
+        } else {
+            return ingredientLibrary[language][key] + ','; // Append comma for other keys
+        }
+    });
+
+    // Remove trailing comma if present
+    const lastIngredientIndex = ingredientNames.length - 1;
+    if (ingredientNames[lastIngredientIndex].endsWith(',')) {
+        ingredientNames[lastIngredientIndex] = ingredientNames[lastIngredientIndex].slice(0, -1); // Remove the last character (which is comma)
+    }
+
+    return `${ingredientNames.join(' ')}`; // Join with a space instead of comma
+}
+
+
+// Function to update catalog content based on selected language
+function updateCatalog(language) {
+    const catalog = {
+        cat: getIngredients(language, 'H'),
+        salmon: getIngredients(language, 'ing', 'r', 'sa'),
+        tamago: getIngredients(language, 'ing', 'r', 'ta', 'sea'),
+        seaweed: getIngredients(language, 'ing', 'r', 'sea', 'ses'),
+        tuna: getIngredients(language, 'ing', 'r', 'tu', 'sea', 'may'),
+        crab: getIngredients(language, 'ing', 'r', 'su', 'may', 'sea'),
+        tobiko: getIngredients(language, 'ing', 'r', 'to', 'sea'),
+        shrimp: getIngredients(language, 'ing', 'r', 'sh', 'may', 'sea'),
+        tako: getIngredients(language, 'ing', 'r', 'oc', 'sea', 'ses'),
+        surimi: getIngredients(language, 'ing', 'r', 'su', 'sea'),
+        scallfin: getIngredients(language, 'ing', 'r', 'sf', 'sea', 'ses'),
+        egg: getIngredients(language, 'ing', 'r', 'qu', 'may', 'to'),
+        tobired: getIngredients(language, 'ing', 'r', 'to', 'sea'),
+        crabtobi: getIngredients(language, 'ing', 'r', 'su', 'to', 'sea', 'may'),
+        cheeseshr: getIngredients(language, 'ing', 'r', 'ch', 'sh', 'may', 'sea'),
+        cheesetob: getIngredients(language, 'ing', 'r', 'ch', 'to', 'may', 'sea'),
+        tobimaki: getIngredients(language, 'ing', 'r',), // to be updated with new pic.
+        salmaki: getIngredients(language, 'ing', 'r'), // to be updated with new pic.
+        sprout: getIngredients(language, 'ing', 'r', 'ta', 'su', 'ca', 'cu', 'sea'),
+        suritabi: getIngredients(language, 'ing', 'r', 'su', 'to'),
+        suriweed: getIngredients(language, 'ing', 'r', 'su', 'sea', 'to', 'may'),
+        mackerel: getIngredients(language, 'ing', 'r', 'ma', 'te', 'ses'),
+        scallop: getIngredients(language, 'ing', 'r', 'sc', 'ses', 'sea'),
+        kelp: getIngredients(language, 'ing', 'r', 'ke', 'may', 'sea'),
+        bbqsal: getIngredients(language, 'ing', 'r', 'sa', 'may', 'to', 'sea'),
+        cenegg: getIngredients(language, 'ing', 'r','ceg','may','to','sea'),
+        torchsalm: getIngredients(language, 'ing', 'r', 'sa'),
+        avocream: getIngredients(language, 'ing', 'r', 'av', 'cre', 'sea'),
+        aburisal: getIngredients(language, 'ing', 'r', 'sa', 'may', 'te', 'chd'),
+        aburishrim: getIngredients(language, 'ing', 'r', 'sh', 'may', 'te', 'chd'),
+        aburisuri: getIngredients(language, 'ing', 'r', 'su', 'may', 'te', 'chd'),
+        chickn: getIngredients(language, 'ing', 'r','ba', 'may', 'te', 'chd'),
+        bigphila: getIngredients(language, 'ing', 'r','sa','av','cre','te','ses','sea'),
+        philsm: getIngredients(language, 'ing', 'r','sa','cu','cre','sea','ses'),
+        avosalm: getIngredients(language, 'ing', 'r','sa','av','sea'),
+        tunamaki: getIngredients(language, 'ing', 'r','tu'),
+        mango: getIngredients(language, 'ing', 'r','man','av','cu','sea'),
+        japan: getIngredients(language, 'ing', 'r','sa','cre','to','may','ja'),
+        shrmaki: getIngredients(language, 'ing', 'r'),
+        spicysalrol: getIngredients(language, 'ing', 'r','sa','sp','av','sea','to','may'),
+        spicytuna: getIngredients(language, 'ing', 'r','tu','cu','sp','sea'),
+        spicysalm: getIngredients(language, 'ing', 'r','sa','sp','to'),
+        tofsal: getIngredients(language, 'ing', 'r','tof','sa','sp','to','ses'),
+        tofavo: getIngredients(language, 'ing', 'r','tof','av','ses'),
+        salaburol: getIngredients(language, 'ing', 'r','sa','su','ta','cu','ca','te','may','chd','sea'),
+        mackaburol: getIngredients(language, 'ing', 'r','ma','su','ta','cu','ca','te','may','chd','sea'),
+
+
+
+    };
+
+    // Update HTML elements with new content
+    document.getElementById('cat').textContent = catalog.cat;
+    document.getElementById('salmon').textContent = catalog.salmon;
+    document.getElementById('tamago').textContent = catalog.tamago;
+    document.getElementById('seaweed').textContent = catalog.seaweed;
+    document.getElementById('tuna').textContent = catalog.tuna;
+    document.getElementById('crab').textContent = catalog.crab;
+    document.getElementById('tobiko').textContent = catalog.tobiko;
+    document.getElementById('shrimp').textContent = catalog.shrimp;
+    document.getElementById('tako').textContent = catalog.tako;
+    document.getElementById('surimi').textContent = catalog.surimi;
+    document.getElementById('scallfin').textContent = catalog.scallfin;
+    document.getElementById('egg').textContent = catalog.egg;
+    document.getElementById('tobired').textContent = catalog.tobired;
+    document.getElementById('crabtobi').textContent = catalog.crabtobi;
+    document.getElementById('cheeseshr').textContent = catalog.cheeseshr;
+    document.getElementById('cheesetob').textContent = catalog.cheesetob;
+    document.getElementById('tobimaki').textContent = catalog.tobimaki;
+    document.getElementById('salmaki').textContent = catalog.salmaki;
+    document.getElementById('sprout').textContent = catalog.sprout;
+    document.getElementById('suritabi').textContent = catalog.suritabi;
+    document.getElementById('suriweed').textContent = catalog.suriweed;
+    document.getElementById('mackerel').textContent = catalog.mackerel;
+    document.getElementById('scallop').textContent = catalog.scallop;
+    document.getElementById('kelp').textContent = catalog.kelp;
+    document.getElementById('bbqsal').textContent = catalog.bbqsal;
+    document.getElementById('cenegg').textContent = catalog.cenegg;
+    document.getElementById('torchsalm').textContent = catalog.torchsalm;
+    document.getElementById('avocream').textContent = catalog.avocream;
+    document.getElementById('aburisal').textContent = catalog.aburisal;
+    document.getElementById('aburishrim').textContent = catalog.aburishrim;
+    document.getElementById('aburisuri').textContent = catalog.aburisuri;
+    document.getElementById('chickn').textContent = catalog.chickn;
+    document.getElementById('bigphila').textContent = catalog.bigphila;
+    document.getElementById('philsm').textContent = catalog.philsm;
+    document.getElementById('avosalm').textContent = catalog.avosalm;
+    document.getElementById('tunamaki').textContent = catalog.tunamaki;
+    document.getElementById('mango').textContent = catalog.mango;
+    document.getElementById('japan').textContent = catalog.japan;
+    document.getElementById('shrmaki').textContent = catalog.shrmaki;
+    document.getElementById('spicysalrol').textContent = catalog.spicysalrol;
+    document.getElementById('spicytuna').textContent = catalog.spicytuna;
+    document.getElementById('spicysalm').textContent = catalog.spicysalm;
+    document.getElementById('tofsal').textContent = catalog.tofsal;
+    document.getElementById('tofavo').textContent = catalog.tofavo;
+    document.getElementById('salaburol').textContent = catalog.salaburol;
+    document.getElementById('mackaburol').textContent = catalog.mackaburol;
+
+ 
+}
+
+// Event listener for dropdown change
+document.getElementById('languageSelect').addEventListener('change', function () {
+    const selectedLanguage = this.value; // Get selected language code
+    updateCatalog(selectedLanguage); // Update catalog based on selected language
+    
+    
+});
+
+// Initial update of catalog based on default selected language
+const initialLanguage = document.getElementById('languageSelect').value; // Get initial selected language
+updateCatalog(initialLanguage); // Update catalog on page load
+
+
+// Initialization function
+function initializePage() {
+    // Retrieve preferred language from local storage, default to 'en'
+    const savedLanguage = localStorage.getItem('preferredLanguage') || 'en';
+    
+    // Get the current page from dataset or default to 'index'
+    const page = document.body.dataset.page || 'index';
+
+    // Set the selected language in the language dropdown
+    document.getElementById('languageSelect').value = savedLanguage;
+
+    // Change language and update page content
+    changeLanguage(savedLanguage, page);
+
+    // Update catalog based on selected language
+    updateCatalog(savedLanguage);
+}
+
+// Event listener for the language select dropdown
+document.getElementById('languageSelect').addEventListener('change', function () {
+    const page = document.body.dataset.page || 'index';
+    changeLanguage(this.value, page);
+    updateCatalog(this.value); // Update catalog when language changes
+});
+
+// Event listener for DOMContentLoaded to initialize the page
+document.addEventListener('DOMContentLoaded', initializePage);
+
+
+   
+
+
+
+
 
