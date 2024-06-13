@@ -90,7 +90,19 @@ h3 {
 .mid {
     text-align: center;
     width: 100%;
+    animation: logo 2s ease
+}
 
+@keyframes logo {
+    from {
+        opacity: 0%;
+        transform: scale(50%);
+    }
+
+    to {
+        opacity: 100%;
+        transform: scale(100%);
+    }
 }
 
 #page {
@@ -103,6 +115,18 @@ h3 {
     text-align: center;
     margin: auto;
     width: 50%;
+    animation: slideleft 4s ease;
+}
+
+@keyframes slideleft {
+    from {
+        transform: translateX(-100px);
+        opacity: 0%;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 100%;;
+    }
 }
 
 #left {
@@ -115,7 +139,18 @@ h3 {
     text-align: center;
     width: 50%;
     margin: auto;
+    animation: slideright 4s ease;
+}
 
+@keyframes slideright {
+    from {
+        transform: translateX(100px);
+        opacity: 0%;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 100%;;
+    }
 }
 
 #right {
@@ -209,17 +244,43 @@ h3 {
 
 .sushis {
     width: 25%;
+    /* transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 1 ; */
+    transition: transform, 0.5s;
+    animation-name: arise;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.5;
 }
 
 .sushimg {
     width: 100%;
+
+}
+
+@keyframes arise {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+.sushis:hover {
+    transform: scale(102%);
+
 }
 
 .sushtext {
-    flex: 1 1 200px; /* Flex-grow, flex-shrink, flex-basis */
+    flex: 1 1 200px;
+    /* Flex-grow, flex-shrink, flex-basis */
     margin: 10px;
     text-align: center;
-    
+
 }
 
 @media (max-width: 600px) {
