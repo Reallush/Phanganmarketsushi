@@ -290,4 +290,8 @@ h3 {
         width: 40%;
         /* Add some padding for smaller screens */
     }
+    .sushis:hover {
+        transform: scale(150%);
+    }
+    
 }
