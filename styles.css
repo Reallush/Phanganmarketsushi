@@ -123,9 +123,11 @@ h3 {
         transform: translateX(-100px);
         opacity: 0%;
     }
+
     to {
         transform: translateX(0px);
-        opacity: 100%;;
+        opacity: 100%;
+        ;
     }
 }
 
@@ -147,9 +149,11 @@ h3 {
         transform: translateX(100px);
         opacity: 0%;
     }
+
     to {
         transform: translateX(0px);
-        opacity: 100%;;
+        opacity: 100%;
+        ;
     }
 }
 
@@ -224,7 +228,10 @@ h3 {
     text-decoration: black !important;
     text-align: center;
     margin-top: 20px;
+    animation: logo 2s ease;
 }
+
+
 
 /*sushi catalog css*/
 .sushimain {
@@ -244,6 +251,7 @@ h3 {
 
 .sushis {
     width: 25%;
+margin-bottom: 20px;
     /* transition-property: transform;
     transition-duration: 0.5s;
     transition-timing-function: ease;
@@ -255,9 +263,14 @@ h3 {
     animation-delay: 0.5;
 }
 
+
+
 .sushimg {
     width: 100%;
-
+    border-radius: 10%;
+    border-color: grey;
+    border-style: solid;
+    border-width: 2px;
 }
 
 @keyframes arise {
@@ -272,7 +285,7 @@ h3 {
 
 .sushis:hover {
     transform: scale(102%);
-
+ 
 }
 
 .sushtext {
@@ -280,19 +293,59 @@ h3 {
     /* Flex-grow, flex-shrink, flex-basis */
     margin: 10px;
     text-align: center;
+   visibility: hidden;
+  
+}
+.sushis:hover .sushtext{
+    visibility: unset;
+    animation: sute 1s ease;
+  
+}
 
+@keyframes sute {
+    from {
+        opacity: 0%;
+        scale: 60%;
+        transform: translateY(-40px);
+    }
+    to {
+        opacity: 100%;
+        scale: 100%;
+        transform: translateY(0px);
+    }
 }
 
 @media (max-width: 600px) {
     .sushis {
         max-width: 100%;
         padding: 10px;
-        width: 40%;
+        width: 50%;
         /* Add some padding for smaller screens */
     }
+
     .sushis:hover {
-        transform: scale(150%);
+        transform: scale(110%);
         background-color: black;
+        border-radius: 10%;
+    }
+
+    .sushis:hover .sushtext{
+        visibility: unset;
+        animation: sute 1s ease;
+     
     }
     
+    @keyframes sute {
+        from {
+            opacity: 0%;
+            scale: 80%;
+            
+        }
+        to {
+            opacity: 100%;
+            scale: 100%;
+          
+        }
+    }
+
 }
