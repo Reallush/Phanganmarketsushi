@@ -145,7 +145,7 @@ const ingredientLibrary = {
         ta: 'Tamago',
         su: 'Surimi',
         ca: 'Carrot',
-        to: 'Tobiko', 
+        to: 'Tobiko',
         sh: 'Shrimp',
         sp: 'Spicy mayo',
         may: 'Mayonnaise',
@@ -162,7 +162,7 @@ const ingredientLibrary = {
         ke: 'colored kelp balls',
         chd: 'cheese dip',
         ba: 'chicken stripe',
-        ceg:'century egg'
+        ceg: 'century egg'
     },
     th: {
         H: 'แคตตาล็อกซูชิ',
@@ -240,11 +240,11 @@ function updateCatalog(language) {
         scallfin: getIngredients(language, 'ing', 'r', 'sf', 'sea', 'ses'),
         egg: getIngredients(language, 'ing', 'r', 'qu', 'may', 'to'),
         tobired: getIngredients(language, 'ing', 'r', 'to', 'sea'),
-        crabtobi: getIngredients(language, 'ing', 'r', 'su', 'to', 'sea', 'may'),
-        cheeseshr: getIngredients(language, 'ing', 'r', 'ch', 'sh', 'may', 'sea'),
+        crabtobi: getIngredients(language, 'ing', 'r', 'su', 'to', 'may'),
+        cheeseshr: getIngredients(language, 'ing', 'r', 'ch', 'sh', 'may'),
         cheesetob: getIngredients(language, 'ing', 'r', 'ch', 'to', 'may', 'sea'),
-        tobimaki: getIngredients(language, 'ing', 'r',), // to be updated with new pic.
-        salmaki: getIngredients(language, 'ing', 'r'), // to be updated with new pic.
+        tobimaki: getIngredients(language, 'ing', 'r', 'ca', 'cu', 'su', 'to', 'ta', 'sea'),
+        salmaki: getIngredients(language, 'ing', 'r', 'sa', 'ca', 'su', 'to', 'ta', 'sea'),
         sprout: getIngredients(language, 'ing', 'r', 'ta', 'su', 'ca', 'cu', 'sea'),
         suritabi: getIngredients(language, 'ing', 'r', 'su', 'to'),
         suriweed: getIngredients(language, 'ing', 'r', 'su', 'sea', 'to', 'may'),
@@ -252,29 +252,37 @@ function updateCatalog(language) {
         scallop: getIngredients(language, 'ing', 'r', 'sc', 'ses', 'sea'),
         kelp: getIngredients(language, 'ing', 'r', 'ke', 'may', 'sea'),
         bbqsal: getIngredients(language, 'ing', 'r', 'sa', 'may', 'to', 'sea'),
-        cenegg: getIngredients(language, 'ing', 'r','ceg','may','to','sea'),
+        cenegg: getIngredients(language, 'ing', 'r', 'ceg', 'may', 'to', 'sea'),
         torchsalm: getIngredients(language, 'ing', 'r', 'sa'),
         avocream: getIngredients(language, 'ing', 'r', 'av', 'cre', 'sea'),
         aburisal: getIngredients(language, 'ing', 'r', 'sa', 'may', 'te', 'chd'),
         aburishrim: getIngredients(language, 'ing', 'r', 'sh', 'may', 'te', 'chd'),
         aburisuri: getIngredients(language, 'ing', 'r', 'su', 'may', 'te', 'chd'),
-        chickn: getIngredients(language, 'ing', 'r','ba', 'may', 'te', 'chd'),
-        bigphila: getIngredients(language, 'ing', 'r','sa','av','cre','te','ses','sea'),
-        philsm: getIngredients(language, 'ing', 'r','sa','cu','cre','sea','ses'),
-        avosalm: getIngredients(language, 'ing', 'r','sa','av','sea'),
-        tunamaki: getIngredients(language, 'ing', 'r','tu'),
-        mango: getIngredients(language, 'ing', 'r','man','av','cu','sea'),
-        japan: getIngredients(language, 'ing', 'r','sa','cre','to','may','ja'),
-        shrmaki: getIngredients(language, 'ing', 'r'),
-        spicysalrol: getIngredients(language, 'ing', 'r','sa','sp','av','sea','to','may'),
-        spicytuna: getIngredients(language, 'ing', 'r','tu','cu','sp','sea'),
-        spicysalm: getIngredients(language, 'ing', 'r','sa','sp','to'),
-        tofsal: getIngredients(language, 'ing', 'r','tof','sa','sp','to','ses'),
-        tofavo: getIngredients(language, 'ing', 'r','tof','av','ses'),
-        salaburol: getIngredients(language, 'ing', 'r','sa','su','ta','cu','ca','te','may','chd','sea'),
-        mackaburol: getIngredients(language, 'ing', 'r','ma','su','ta','cu','ca','te','may','chd','sea'),
-
-
+        chickn: getIngredients(language, 'ing', 'r', 'ba', 'may', 'te', 'chd'),
+        bigphila: getIngredients(language, 'ing', 'r', 'sa', 'av', 'cre', 'te', 'ses', 'sea'),
+        philsm: getIngredients(language, 'ing', 'r', 'sa', 'cu', 'cre', 'sea', 'ses'),
+        avosalm: getIngredients(language, 'ing', 'r', 'sa', 'av', 'sea'),
+        cucumbr: getIngredients(language, 'ing', 'r', 'cu', 'sea', 'ses'),
+        mango: getIngredients(language, 'ing', 'r', 'man', 'av', 'cu', 'sea'),
+        japan: getIngredients(language, 'ing', 'r', 'sa', 'cre', 'to', 'may', 'ja'),
+        spicysalrol: getIngredients(language, 'ing', 'r', 'sa', 'sp', 'av', 'sea', 'to', 'may'),
+        spicytuna: getIngredients(language, 'ing', 'r', 'tu', 'cu', 'sp', 'sea'),
+        spicysalm: getIngredients(language, 'ing', 'r', 'sa', 'sp', 'to'),
+        tofsal: getIngredients(language, 'ing', 'r', 'tof', 'sa', 'sp', 'to', 'ses'),
+        tofavo: getIngredients(language, 'ing', 'r', 'tof', 'av', 'ses'),
+        salaburol: getIngredients(language, 'ing', 'r', 'sa', 'su', 'ta', 'cu', 'ca', 'te', 'may', 'chd', 'sea'),
+        mackaburol: getIngredients(language, 'ing', 'r', 'ma', 'su', 'ta', 'cu', 'ca', 'te', 'may', 'chd', 'sea'),
+        tobiredrol: getIngredients(language, 'ing', 'r', 'ca', 'cu', 'su', 'to', 'ta', 'sea'),
+        shrimnigi: getIngredients(language, 'ing', 'r', 'sh', 'to', 'may'),
+        crabtuna: getIngredients(language, 'ing', 'r', 'su', 'tu', 'may', 'sea'),
+        crabsea: getIngredients(language, 'ing', 'r', 'su', 'may', 'sea', 'to'),
+        avoveg: getIngredients(language, 'ing', 'r', 'av', 'cu', 'ca', 'sea', 'ses'),
+        avosea: getIngredients(language, 'ing', 'r', 'av', 'sea', 'ses'),
+        avodel: getIngredients(language, 'ing', 'r', 'av', 'cu'),
+        avo: getIngredients(language, 'ing', 'r', 'av', 'ses'),
+        avosalro: getIngredients(language, 'ing', 'r', 'av', 'sa', 'sea'),
+        shrimcali: getIngredients(language, 'ing', 'r', 'ca', 'cu', 'su', 'to', 'ta', 'sea'),
+        shrimrol: getIngredients(language, 'ing', 'r', 'sh', 'cu', 'ca', 'ta', 'sea')
 
     };
 
@@ -314,10 +322,9 @@ function updateCatalog(language) {
     document.getElementById('bigphila').textContent = catalog.bigphila;
     document.getElementById('philsm').textContent = catalog.philsm;
     document.getElementById('avosalm').textContent = catalog.avosalm;
-    document.getElementById('tunamaki').textContent = catalog.tunamaki;
+    document.getElementById('cucumbr').textContent = catalog.cucumbr;
     document.getElementById('mango').textContent = catalog.mango;
     document.getElementById('japan').textContent = catalog.japan;
-    document.getElementById('shrmaki').textContent = catalog.shrmaki;
     document.getElementById('spicysalrol').textContent = catalog.spicysalrol;
     document.getElementById('spicytuna').textContent = catalog.spicytuna;
     document.getElementById('spicysalm').textContent = catalog.spicysalm;
@@ -325,16 +332,27 @@ function updateCatalog(language) {
     document.getElementById('tofavo').textContent = catalog.tofavo;
     document.getElementById('salaburol').textContent = catalog.salaburol;
     document.getElementById('mackaburol').textContent = catalog.mackaburol;
+    document.getElementById('tobiredrol').textContent = catalog.tobiredrol;
+    document.getElementById('shrimnigi').textContent = catalog.shrimnigi;
+    document.getElementById('crabtuna').textContent = catalog.crabtuna;
+    document.getElementById('crabsea').textContent = catalog.crabsea;
+    document.getElementById('avosea').textContent = catalog.avosea;
+    document.getElementById('avoveg').textContent = catalog.avoveg;
+    document.getElementById('avodel').textContent = catalog.avodel;
+    document.getElementById('avosalro').textContent = catalog.avosalro;
+    document.getElementById('shrimcali').textContent = catalog.shrimcali;
+    document.getElementById('shrimrol').textContent = catalog.shrimrol;
+    document.getElementById('avo').textContent = catalog.avo;
 
- 
+
 }
 
 // Event listener for dropdown change
 document.getElementById('languageSelect').addEventListener('change', function () {
     const selectedLanguage = this.value; // Get selected language code
     updateCatalog(selectedLanguage); // Update catalog based on selected language
-    
-    
+
+
 });
 
 // Initial update of catalog based on default selected language
@@ -346,7 +364,7 @@ updateCatalog(initialLanguage); // Update catalog on page load
 function initializePage() {
     // Retrieve preferred language from local storage, default to 'en'
     const savedLanguage = localStorage.getItem('preferredLanguage') || 'en';
-    
+
     // Get the current page from dataset or default to 'index'
     const page = document.body.dataset.page || 'index';
 
@@ -371,7 +389,7 @@ document.getElementById('languageSelect').addEventListener('change', function ()
 document.addEventListener('DOMContentLoaded', initializePage);
 
 
-   
+
 
 
 
