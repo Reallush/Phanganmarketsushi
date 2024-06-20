@@ -16,6 +16,8 @@
 </head>
 
 <body data-page="catalog" id="locbac">
+
+    <div class="scroll-watcher"></div>
     <!-- Navbar-->
     <nav class="navbar navbar-expand-lg navcol">
         <a id="hom" class="navbar-brand link-light" href="index.html">Phangan Market Sushi</a>
@@ -38,8 +40,8 @@
                     <a id="bout" href="About us.html" class="nav-link link-light"></a>
                 </li>
                 <li class="nav-item trl">
-                    <div class="d-flex justify-content-end mb-3">
-                        <select id="languageSelect" class="form-select w-auto">
+                    <div>
+                        <select id="languageSelect" class="form-select form-select-sm">
                             <option value="en">Eng</option>
                             <option value="th">ไทย</option>
                         </select>
@@ -51,6 +53,7 @@
 
 
 
+    <div class="scroll-watcher"></div>
 
     <div class="sushimain" style="height: 2000px;">
         <h1 id="cat"></h1>
@@ -58,11 +61,11 @@
             <input type="text" id="searchInput" class="form-control" placeholder="Search for sushi...">
         </div>
         <div class="flex">
-            <div class="sushis" data-name="salmon, fish, kosher"><img class="sushimg" src="sushi/salmon.png"
+            <div class="sushis" data-name="salmon,nigiri, fish, kosher"><img class="sushimg" src="sushi/salmon.png"
                     alt="Salmon nigiri">
                 <p class="sushtext" id="salmon"></p>
             </div>
-            <div class="sushis" data-name="tamago, egg, vegetarian, kosher"><img class="sushimg" src="sushi/tamago.png"
+            <div class="sushis" data-name="tamago,nigiri, egg, vegetarian, kosher"><img class="sushimg" src="sushi/tamago.png"
                     alt="Tamago nigiri">
                 <p class="sushtext" id="tamago"></p>
             </div>
@@ -92,7 +95,7 @@
             <div class="sushis" data-name="tako, octopus"><img class="sushimg" src="sushi/tako.png" alt="">
                 <p class="sushtext" id="tako"></p>
             </div>
-            <div class="sushis" data-name="crabstick, surimi"><img class="sushimg" src="sushi/surimi.png"
+            <div class="sushis" data-name="crabstick, surimi, nigiri"><img class="sushimg" src="sushi/surimi.png"
                     alt="surimi nigiri">
                 <p class="sushtext" id="surimi"></p>
             </div>
@@ -116,11 +119,11 @@
                     alt="Gunkan Maki surimi tobiko">
                 <p class="sushtext" id="crabtobi"></p>
             </div>
-            <div class="sushis" data-name="cheese, shrimp"><img class="sushimg" src="sushi/cheeseshr.png"
+            <div class="sushis" data-name="cheese, shrimp, nigiri"><img class="sushimg" src="sushi/cheeseshr.png"
                     alt="cheese shrimp nigiri">
                 <p class="sushtext" id="cheeseshr"></p>
             </div>
-            <div class="sushis" data-name="cheese, tobiko, roe, "><img class="sushimg" src="sushi/cheesetob.png" alt="">
+            <div class="sushis" data-name="cheese, tobiko, roe,nigiri "><img class="sushimg" src="sushi/cheesetob.png" alt="">
                 <p class="sushtext" id="cheesetob"></p>
             </div>
         </div>
@@ -139,7 +142,7 @@
             <div class="sushis" data-name="surimi, crab, tobiko"><img class="sushimg" src="sushi/suritabi.png" alt="">
                 <p class="sushtext" id="suritabi"></p>
             </div>
-            <div class="sushis" data-name="surimi, seaweed"><img class="sushimg" src="sushi/suriweed.png" alt="">
+            <div class="sushis" data-name="surimi, seaweed, nigiri"><img class="sushimg" src="sushi/suriweed.png" alt="">
                 <p class="sushtext" id="suriweed"></p>
             </div>
             <div class="sushis" data-name="mackerel, fish, kosher"><img class="sushimg" src="sushi/mackerel.png" alt="">
@@ -161,7 +164,7 @@
             <div class="sushis" data-name="egg"><img class="sushimg" src="sushi/cenegg.png" alt="">
                 <p class="sushtext" id="cenegg"></p>
             </div>
-            <div class="sushis" data-name="salmon, torch, flambe, aburi, kosher"><img class="sushimg"
+            <div class="sushis" data-name="salmon, torch, flambe, aburi,nigiri, kosher"><img class="sushimg"
                     src="sushi/torchsalm.jpg" alt="">
                 <p class="sushtext" id="torchsalm"></p>
             </div>
@@ -171,21 +174,21 @@
             </div>
         </div>
         <div class="flex">
-            <div class="sushis" data-name="salmon, torch, flambe, aburi, kosher"><img class="sushimg"
+            <div class="sushis" data-name="salmon, torch, flambe, aburi, nigiri, kosher"><img class="sushimg"
                     src="sushi/aburisal.jpg" alt="">
                 <p class="sushtext" id="aburisal"></p>
             </div>
-            <div class="sushis" data-name="shrimp,torch, flambe, aburi"><img class="sushimg" src="sushi/aburishrim.jpg"
+            <div class="sushis" data-name="shrimp,torch, flambe, aburi, nigiri"><img class="sushimg" src="sushi/aburishrim.jpg"
                     alt="">
                 <p class="sushtext" id="aburishrim"></p>
             </div>
-            <div class="sushis" data-name="surimi, torch, flambe, aburi"><img class="sushimg" src="sushi/aburisuri.png"
+            <div class="sushis" data-name="surimi, torch, flambe, aburi, nigiri"><img class="sushimg" src="sushi/aburisuri.png"
                     alt="">
                 <p class="sushtext" id="aburisuri"></p>
             </div>
         </div>
         <div class="flex">
-            <div class="sushis" data-name="chicken,torch, flambe, aburi"><img class="sushimg" src="sushi/chickn.jpg"
+            <div class="sushis" data-name="chicken,torch, flambe, aburi, nigiri"><img class="sushimg" src="sushi/chickn.jpg"
                     alt="">
                 <p class="sushtext" id="chickn"></p>
             </div>
@@ -301,22 +304,24 @@
 
 
         </div>
-       
 
-    
-    <div class="welk footer">
-        <a href="https://www.facebook.com/phanganmarketsushi" class="link-light"><button type="button"
-                class="btn dbtn btn-outline-primary btn-md"><i class="fa-brands fa-facebook"></i> Facebook</button></a>
-          
-                <a href="#hom" id="totop" class="link-light"><button type="button"
+
+
+        <div class="welk footer">
+            <a href="https://www.facebook.com/phanganmarketsushi" class="link-light"><button type="button"
+                    class="btn dbtn btn-outline-primary btn-md"><i class="fa-brands fa-facebook"></i>
+                    Facebook</button></a>
+
+            <a href="#hom" id="totop" class="link-light"><button type="button"
                     class="btn dbtn btn-outline-light btn-md"><i class="fa"></i> to top</button></a>
-    
-       
-                <a href="https://www.instagram.com/phanganmarketsushi/" class="link-light"><button type="button"
-                class="btn dbtn btn-outline-danger btn-md"><i class="fa-brands fa-instagram"></i> Instagram</button></a>
-    </div>
 
-</div>
+
+            <a href="https://www.instagram.com/phanganmarketsushi/" class="link-light"><button type="button"
+                    class="btn dbtn btn-outline-danger btn-md"><i class="fa-brands fa-instagram"></i>
+                    Instagram</button></a>
+        </div>
+
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
