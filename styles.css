@@ -7,7 +7,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+  /*  overflow-x: hidden; */
     scroll-behavior: smooth;
 }
 
@@ -21,29 +21,63 @@ h3 {
 
 
 
+
+
+
 .navbar {
     background-color: #981B00;
     text-decoration-color: #fff;
-
 }
 
 .nav-item {
     Margin-right: 20px;
-
-
 }
 
 .trl {
     margin: auto;
     padding: 0;
     position: relative;
-    right: 15px;
+    right: 12px;
 }
 
 .navbar-brand {
     margin-left: 30px;
     font-family: "charm";
     font-size: 150% !important;
+}
+
+#sush {
+    animation: nav 1s ease;
+}
+
+#ordr {
+    animation: nav 1.3s ease;
+}
+
+#loc {
+    animation: nav 1.6s ease;
+}
+
+#bout {
+    animation: nav 1.9s ease;
+}
+
+#languageSelect{
+    animation: nav 2.1s ease;
+}
+
+
+
+@keyframes nav {
+    from {
+        opacity: 0;
+        transform: scale(130%);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(100%);
+    }
 }
 
 .butn {
@@ -178,8 +212,29 @@ h3 {
     padding-top: 40px;
 }
 
+#heading {
+    animation: wel 1.5s ease;
+}
+
+@keyframes wel {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
 .int-but {
     padding: 40px 0px;
+
+    animation: wel 2s ease;
 }
 
 .introbtn {
@@ -230,13 +285,23 @@ h3 {
     text-align: center;
     margin-top: 20px;
     animation: logo 2s ease;
+  
 }
 
-
+.card-body{
+    height: 160px;
+}
+.card-body a {
+    position: absolute;
+    bottom: 0;
+    left: 125px;
+    margin-bottom: 10px;
+}
 
 /*sushi catalog css*/
 .sushimain {
     color: white;
+    z-index: 0;
 }
 
 #cat {
@@ -252,16 +317,18 @@ h3 {
 
 .sushis {
     width: 25%;
-margin-bottom: 20px;
+    margin-bottom: 20px;
     /* transition-property: transform;
     transition-duration: 0.5s;
     transition-timing-function: ease;
-    transition-delay: 1 ; */
+    transition-delay: 1 ;             The transition enlarges the picture*/ 
     transition: transform, 0.5s;
-    animation-name: arise;
+    /*animation when loading screen all at once*/
+    animation-name: arise ;
     animation-duration: 1.5s;
     animation-timing-function: ease-in;
     animation-delay: 0.5;
+
 }
 
 
@@ -273,6 +340,16 @@ margin-bottom: 20px;
     border-style: solid;
     border-width: 2px;
 }
+/* pictures fade in when come in view. 
+@media (prefers-reduced-motion: no-preference){
+article > img {
+    animation-name: arise linear forwards;
+animation-timeline: view ();
+animation-range: entry 100px;
+}
+}
+*/
+
 
 @keyframes arise {
     from {
@@ -286,7 +363,7 @@ margin-bottom: 20px;
 
 .sushis:hover {
     transform: scale(102%);
- 
+
 }
 
 .sushtext {
@@ -294,13 +371,14 @@ margin-bottom: 20px;
     /* Flex-grow, flex-shrink, flex-basis */
     margin: 10px;
     text-align: center;
-   visibility: hidden;
-  
+    visibility: hidden;
+
 }
-.sushis:hover .sushtext{
+
+.sushis:hover .sushtext {
     visibility: unset;
     animation: sute 1s ease;
-  
+
 }
 
 @keyframes sute {
@@ -309,6 +387,7 @@ margin-bottom: 20px;
         scale: 60%;
         transform: translateY(-40px);
     }
+
     to {
         opacity: 100%;
         scale: 100%;
@@ -330,26 +409,45 @@ margin-bottom: 20px;
         border-radius: 10%;
     }
 
-    .sushis:hover .sushtext{
+    .sushis:hover .sushtext {
         visibility: unset;
         animation: sute 1s ease;
-     
+
     }
-    
+
     @keyframes sute {
         from {
             opacity: 0%;
             scale: 80%;
-            
+
         }
+
         to {
             opacity: 100%;
             scale: 100%;
-          
+
         }
     }
 
 }
 
+/* it works as long as overflowx hidden is not used.
+.scroll-watcher {
+    height: 10px ;
+    position: fixed ;
+    top: 0 ;
+    z-index: 9999 ;
+    background-color: lime ;
+    width: 100% ;
+    scale: 0 1 ;
+    transform-origin: left ;
+    animation: scroll-watcher linear ;
+    animation-timeline: scroll() ;
+}
 
-
+@keyframes scroll-watcher {
+    to {
+        scale: 1 1;
+    }
+}
+*/
