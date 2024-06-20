@@ -1,3 +1,7 @@
+
+
+
+
 // this area is for general translation of the page. 
 const translations = {
     en: {
@@ -26,6 +30,12 @@ const translations = {
             cardts2: 'Every Saturday, across the Zen. 16:00-21:00.',
             cardck: 'Chaloklum walking street',
             cardck2: 'Every Sunday on Chaloklum pier. 16:00-21:00',
+            dir:'Directions',
+            dir1:'Directions',
+            dir2:'Directions',
+        },
+        catalog: {
+            totop:'<button type="button" class="btn dbtn btn-outline-light btn-md"><i class="fa"></i> To top of page</button>',
         },
         //           `${getIngredients ('en','r',)}`,
 
@@ -55,6 +65,12 @@ const translations = {
             cardts2: 'ทุกวันเสาร์, ตรงข้าม Zen. 16:00-21:00.',
             cardck: 'ถนนคนเดินโฉลกหลำ',
             cardck2: 'ทุกวันอาทิตย์ที่ท่าเรือโฉลกหลำ. 16:00-21:00',
+            dir:'นำทาง',
+            dir1:'นำทาง',
+            dir2:'นำทาง',
+        },
+        catalog: {
+            totop:'<button type="button" class="btn dbtn btn-outline-light btn-md"><i class="fa"></i>ไปที่ด้านบนของเพจ</button>',
         },
 
     },
@@ -107,7 +123,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     changeLanguage(savedLanguage, page);
 });
 
-
+//=====================================================================================================
 
 //search option for sushi catalog
 document.addEventListener('DOMContentLoaded', (event) => {
@@ -387,6 +403,7 @@ document.getElementById('languageSelect').addEventListener('change', function ()
 
 // Event listener for DOMContentLoaded to initialize the page
 document.addEventListener('DOMContentLoaded', initializePage);
+
 
 
 
